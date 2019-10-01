@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lexend Exa', sans-serif;
+}
+header {
+  width: 1000px;
+  height: 100px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.desc {
+  width: 200px;
+  height: 120px;
+}
+.btn-cart {
+  margin: 20px;
+  padding: 10px;
+  font-family: 'Lexend Exa', sans-serif;
+  text-shadow: 4px 4px 4px #aaa
+}
+.buy-btn {
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: 'Lexend Exa', sans-serif;
+  text-shadow: 4px 4px 4px #aaa
+}
+.product-item {
+  border: 1px solid gainsboro;
+}
+h3 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+p {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.e-shop {
+  text-align: left;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 25px;
+  color: white;
+  margin: 20px;
+}
