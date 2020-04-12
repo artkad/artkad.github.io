@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lexend Exa', sans-serif;
+}
+wraper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.products {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.desc {
+  width: 200px;
+  height: 120px;
+}
+.btn-cart {
+  margin: 20px;
+  padding: 10px;
+  font-family: 'Lexend Exa', sans-serif;
+  text-shadow: 4px 4px 4px #aaa;
+  position: absolute;
+  right: 0;
+}
+.buy-btn {
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: 'Lexend Exa', sans-serif;
+  text-shadow: 4px 4px 4px #aaa
+}
+.product-item {
+  border: 1px solid gainsboro;
+}
+h3 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+p {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.e-shop {
+  text-align: left;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 25px;
+  color: white;
+  margin: 20px;
+}
+.container {
+  margin: 0 auto;
+}
+main {
+  flex: 1;
+}
+footer {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+}
+.cart-block {
+  margin-top: 130px;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  right: 0px;
+}
+btn-cart
+{
+  margin-top: 150px;
+  width: 300px;
+  border: 1px solid #ccc;
+
+  background-color: #2f2a2d;
+}
+
+/* .invisible {
+  display: block;
+} */
+.product-price {
+
+}
+.cart-item {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+.del-btn {
+  float: right;
+}
+.product-bio {
+  display: flex;
+}
+.product-single-price {
+  font-size: 10px;
+}

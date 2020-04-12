@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap" rel="stylesheet">
+</head>
+<body>
+<wraper>
+<div id="app">
+<header class="container">
+    <div class="e-shop">E-SHOP</div>
+    <cart ref="cart"></cart>
+</header>
+
+<main class="container">
+   <!-- <products :products="products" :img="imgCatalog"></products> -->
+   <products ref="products"></products>
+</main>
+</div>  
+
+<!-- <footer>
+</footer> -->
+</wraper>
+<script src="https://kit.fontawesome.com/b0b8bf0853.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/CartComp.js"></script>
+<script src="js/ProdComp.js"></script>
+<script src = 'js/main.js'></script>
+
+</body>
+</html>
